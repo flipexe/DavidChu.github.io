@@ -36,8 +36,8 @@ export default class Main {
     cartIconContainer.append(cartIcon.elem);
     const cart = new Cart(cartIcon);
 
-    let response = await fetch('products.json');
-    this.products = await response.json();
+    let response = await fetch("products.json");
+    this.products = response.ok ? await response.json() : [];
   
     this.productsGrid = new ProductsGrid(this.products);
     const productsGridContainer = document.body.querySelector('[data-products-grid-holder]');
