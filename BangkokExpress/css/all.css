@@ -1,0 +1,22 @@
+/* Carousel */
+@import '../components/carousel/carousel.css';
+
+/* RibbonMenu */
+@import '../components/ribbonMenu/ribbonMenu.css';
+
+/* StepSlider */
+@import '../components/stepSlider/stepSlider.css';
+
+/* ProductCard */
+@import '../components/productCard/productCard.css';
+/* ProductsGrid */
+@import '../components/productGrid/productGrid.css';
+
+/* Modal */
+@import '../components/modalWindow/modalWindow.css';
+/* CartIcon */
+@import '../components/cartIcon/cartIcon.css';
+/* Cart */
+@import '../components/cart/cart.css';
+
+@import './filters.css'
