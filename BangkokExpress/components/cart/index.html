@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Бангкок Экспресс: Корзина</title>
 
-  <link rel="stylesheet" href="/css/common.css" />
+  <link rel="stylesheet" href="./css/common.css" />
   <link rel="stylesheet" href="./cart.css">
-  <link rel="stylesheet" href="/components/cartIcon/cartIcon.css" />
-  <link rel="stylesheet" href="/components/modalWindow/modalWindow.css" />
+  <link rel="stylesheet" href="./components/cartIcon/cartIcon.css" />
+  <link rel="stylesheet" href="./components/modalWindow/modalWindow.css" />
 
 </head>
 
@@ -35,8 +35,8 @@
   </main>
 
   <script type="module">
-    import Cart from './index.js';
-    import CartIcon from '../1-task/index.js';
+    import Cart from './cart.js';
+    import CartIcon from '../cartIcon/cartIcon.js';
 
     let cartIcon = new CartIcon();
     let cartIconHolder = document.querySelector('[data-cart-icon-holder]');
